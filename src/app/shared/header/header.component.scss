@@ -1,0 +1,40 @@
+header {
+    background-color: transparent;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: white;
+    align-items: last baseline;
+
+    ul li {
+        list-style: none;
+        line-height: 1.3;
+        font-size: 1.1rem;
+        letter-spacing: -1px;
+        cursor: pointer;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            
+                font-size: 1.3rem;
+                color: #cecece;
+        }
+    }
+
+    .number {
+        text-align: right;
+        font-size: .6em;
+        color: rgb(180, 180, 180);
+        font-weight: 700;
+    }
+
+    nav {
+        // padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header {
+        display: none;
+    }
+}
